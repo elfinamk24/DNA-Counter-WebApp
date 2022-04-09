@@ -9,4 +9,11 @@ from PIL import Image
 ##################
 ## PAGE TITLE   ##
 ##################
-image = Ima
+image = Image.open('DNA.jpeg')
+st.image(image, use_column_width = True)
+
+st.write("""
+# DNA Nucleotides Counter Web App
+
+
+""")
